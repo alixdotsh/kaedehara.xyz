@@ -1,68 +1,88 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>alix</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width,initial-scale=1" />
-		<meta name="description" content="social links" />
-		<meta name="twitter:title" content="kaedehara.xyz" />
-		<meta name="twitter:description" content="a wolf on the internet" />
-		<meta name="theme-color" content="#ff1434" />
-		<meta property="og:site_name" content="alix" />
-		<meta property="og:title" content="alix" />
-		<meta property="og:type" content="website" />
-		<meta property="og:description" content="social links" />
-		<link href="https://fonts.googleapis.com/css?family=Oxygen:300,300italic,400,400italic%7CSource+Sans+Pro:200,200italic,400,400italic" rel="stylesheet" type="text/css" />
-		<link rel="stylesheet" href="assets/main.css" />
-		<link rel="icon" type="image/png" href="logo.png" />
-		<noscript><link rel="stylesheet" href="assets/noscript.css" /></noscript>
-	</head>
-	<body class="is-loading">
-		<div id="wrapper">
-			<div id="main">
-				<div class="inner">
-					<div id="columns02" class="container default">
-						<div class="wrapper">
-							<div class="inner">
-								<div id="image01" class="image">
-									<span class="frame"><img src="assets/images/profile.jpg" alt="" /></span>
-								</div>
-								<h1 id="text08">alix</h1>
-								<p id="text01">wolf thing</p>
-								<div id="table01" class="table-wrapper">
-									<div class="table-inner">
-										<table>
-											<tbody>
-												<tr>
-													<td>twitter</td>
-													<td><a href="https://twitter.com/alixowo">@alixowo</a></td>
-												</tr>
-												<tr>
-													<td>youtube</td>
-													<td><a href="https://www.youtube.com/channel/UCD8RIQ9FGCOIYC_yUOVoUDg">@alixowo</a></td>
-												</tr>
-												<tr>
-													<td>github</td>
-													<td><a href="https://github.com/rawr-x3">@rawr-x3</a></td>
-												</tr>
-												<tr>
-													<td>osu!</td>
-													<td><a href="https://osu.ppy.sh/users/15552380">@rawr x3</a></td>
-												</tr>
-											</tbody>
-										</table>
-									</div>
-								</div>
-								<ul id="buttons01" class="buttons">
-									<li>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<script src="assets/main.js"></script>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <title>alix</title>
+    <meta name="twitter:title" content="kaedehara.xyz" />
+    <meta name="twitter:description" content="wolf on the internet" />
+    <meta name="theme-color" content="#ef001e" />
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e473294955.js" crossorigin="anonymous"></script>
+</head>
+
+<script>
+  window.onload = function() {
+    twemoji.parse(document.body,
+            {folder: 'svg', ext: '.svg'}
+    );
+
+  }
+</script>
+
+<style>
+  img.emoji {
+  width:1em;
+  pointer-events: none;
+}
+</style>
+
+<body>
+
+<h1>hello! 👋</h1>
+<p>im alix, a struggling high school student who is self taught<br>
+    software development, and sometimes a lil silly on the internet :3<br>
+im also a linux enthusiast, arch linux to be exact.</p>
+
+<h1>what do i do? 💻</h1>
+<p>im mainly familiar with HTML, and <i>some</i> Python. currently,<br>
+im trying to learn a new language (not sure yet) that will become<br>
+my main language i use. im also very hands on when it comes to tech,<br>
+i like to fix electronics on the side.</p>
+
+<h1>do i do anything else? 🎮</h1>
+<p>yes! i play games on the side, mainly genshin impact and osu.<br>
+i also draw sometimes whenever i have free time, and i also workout :3</p>
+
+<h1>links 🔗</h1>
+<p>below are some links where you can find me :3</p>
+
+<div class="menu">
+    <button class="home" onclick="window.location.href='https://kaedehara.xyz'">
+            <span class="text"><i class="fa-solid fa-house"></i>
+    </button>
+</div>
+
+<div class="links">
+    <button class="icons" onclick="window.location.href='https://github.com/rawr-x3'">
+            <span class="text"><i class="fa-brands fa-github"></i>
+    </button>
+
+    <button class="icons" onclick="window.location.href='https://twitter.com/alixowo'">
+            <span class="text"><i class="fa-brands fa-twitter"></i>
+    </button>
+
+    <button class="icons" onclick="window.location.href='https://www.youtube.com/channel/UCD8RIQ9FGCOIYC_yUOVoUDg'">
+            <span class="text"><i class="fa-brands fa-youtube"></i>
+    </button>
+
+    <button class="icons" onclick="window.location.href='https://open.spotify.com/user/e6fci1aw7vs90f1qm27d2wcud?si=cf1893f22f64424d'">
+            <span class="text"><i class="fa-brands fa-spotify"></i>
+    </button>
+
+    <button class="icons" onclick="window.location.href='https://twitch.tv/alixunderscore'">
+            <span class="text"><i class="fa-brands fa-twitch"></i>
+    </button>
+
+    <button class="icons" onclick="window.location.href='https://www.reddit.com/user/rawrx3__'">
+            <span class="text"><i class="fa-brands fa-reddit"></i>
+    </button>
+
+    <button class="icons" onclick="window.location.href='https://steamcommunity.com/id/alixowo/'">
+            <span class="text"><i class="fa-brands fa-steam"></i>
+    </button>
+</div>
+
+</body>
 </html>

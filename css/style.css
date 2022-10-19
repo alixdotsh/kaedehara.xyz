@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "larsseit";
+    src: url("/fonts/Larsseit/larsseit.woff2") format("woff2"),
+    url("/fonts/Larsseit/larsseit.woff") format("woff"),
+    url("/fonts/Larsseit/larsseit.ttf") format("truetype"),
+    url("/fonts/Larsseit/Larsseit.otf") format("opentype"),
+    url("/fonts/Larsseit/larsseit.svg") format("svg"),
+    url("/fonts/Larsseit/larsseit.eot");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "larsseititalic";
+    src: url("/fonts/Larsseit Italic/larsseit-italic.woff2") format("woff2"),
+    url("/fonts/Larsseit Italic/larsseit-italic.woff") format("woff"),
+    url("/fonts/Larsseit Italic/larsseit-italic.ttf") format("truetype"),
+    url("/fonts/Larsseit Italic/Larsseit-italic.otf") format("opentype"),
+    url("/fonts/Larsseit Italic/larsseit-Italic.svg") format("svg"),
+    url("/fonts/Larsseit Italic/larsseit-italic.eot");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "larsseitbold";
+    src: url("/fonts/Larsseit Bold/larsseit-bold.woff2") format("woff2"),
+    url("/fonts/Larsseit Bold/larsseit-bold.woff") format("woff"),
+    url("/fonts/Larsseit Bold/larsseit-bold.ttf") format("truetype"),
+    url("/fonts/Larsseit Bold/Larsseit-Bold.otf") format("opentype"),
+    url("/fonts/Larsseit Bold/larsseit-bold.svg") format("svg"),
+    url("/fonts/Larsseit Bold/larsseit-bold.eot");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "larsseitbolditalic";
+    src: url("/fonts/Larsseit Bold Italic/larsseit-bolditalic.woff2") format("woff2"),
+    url("/fonts/Larsseit Bold Italic/larsseit-bolditalic.woff") format("woff"),
+    url("/fonts/Larsseit Bold Italic/larsseit-bolditalic.ttf") format("truetype"),
+    url("/fonts/Larsseit Bold Italic/Larsseit-BoldItalic.otf") format("opentype"),
+    url("/fonts/Larsseit Bold Italic/larsseit-bolditalic.svg") format("svg"),
+    url("/fonts/Larsseit Bold Italic/larsseit-bolditalic.eot");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.menu {
+    position: absolute;
+    top: 19px;
+    left: 20px;
+}
+
+.home {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    padding: 5px 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.icons {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    padding: 5px 5px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Larsseit;
+    vertical-align: middle;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
